@@ -3,6 +3,7 @@ import { Props } from "./type";
 
 export default function Button(props: Props) {
   const { children, ...restProps } = props;
+  console.log(props);
   return (
     <button
       data-testid="button-core"
